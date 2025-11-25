@@ -9,8 +9,8 @@ export function Experience() {
 
   const highlights = [
     { icon: TrendingUp, number: "3+", text: "Years in Web3" },
-    { icon: Target, number: "10+", text: "Projects Supported" },
-    { icon: Users, number: "50+", text: "Community Activations" },
+    { icon: Target, number: "50+", text: "Projects Supported" },
+    { icon: Users, number: "100+", text: "Community Activations" },
     { icon: Radio, number: "100+", text: "Twitter Spaces Hosted" },
   ];
 
@@ -52,12 +52,13 @@ export function Experience() {
           className="bg-gradient-to-br from-red-950/40 to-black/60 border border-red-900/40 rounded-2xl sm:rounded-3xl p-6 sm:p-10 backdrop-blur-sm"
         >
           <p className="text-gray-300 text-sm sm:text-base md:text-lg leading-relaxed">
-            Over 3 years in the Web3 space, supporting 10+ projects across growth,
-            community building, content strategy, and partnerships. Specialized in
-            crafting narratives that connect users to protocols, leading 50+ community
-            activations, and hosting 100+ Twitter Spaces with thousands of combined
-            listeners. Proven track record of driving millions in market cap growth, NFT
-            sellouts, and scaling communities by thousands of members/followers.
+           With over three years of hands-on experience in the Web3 space, I help projects grow by building strong communities, crafting clear and engaging narratives, and driving strategic partnerships. I’ve supported 50+ teams across growth, content strategy, and community activation.
+
+
+          I’ve hosted 100+ Twitter Spaces, led 100+ community campaigns, and helped projects achieve real results from NFT sellouts to community growth in the thousands and driving millions in market cap growth. 
+
+My focus is simple: connect users to products through communication that feels human, authentic, and impactful.
+
           </p>
         </motion.div>
       </div>

@@ -2,24 +2,34 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { ExternalLink, TrendingUp, Users, DollarSign, Image } from "lucide-react";
+import backpackimg from '../components/figma/backpack.jpg';
+import bongaimg from '../components/figma/bonga.jpg';
+import switchiveimg from '../components/figma/switchive.jpg';
+import ulaloimg from '../components/figma/ulalo.jpg';
+import onlyplayclubimg from '../components/figma/onlypay.jpg';
+import babesmemcoinimg from '../components/figma/babesmemcoin.jpg';
+import goldendonkeyimg from '../components/figma/uglydonkey.jpg';
+import uglyducksimg from '../components/figma/uglyducks.jpg';
+import { link } from "fs";
 
 export function Projects() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const projects = [
-    {
-      name: "Ugly Ducks",
-      description:
-        "Supported their NFT sales campaign, helping them sell out nearly their entire collection.",
-      icon: Image,
-      status: "Completed",
-    },
+    // {
+    //   name: "Ugly Ducks",
+    //   description:
+    //     "Supported their NFT sales campaign, helping them sell out nearly their entire collection.",
+    //   icon: Image,
+    //   status: "Completed",
+    // },
     {
       name: "Bonga Meme",
       description:
         "Drove growth by scaling market cap from $100K to over $5M through targeted engagement and strategy.",
-      icon: TrendingUp,
+      icon: bongaimg,
+      link  : 'https://x.com/bongasolana',
       status: "Completed",
       highlight: "$100K → $5M",
     },
@@ -27,14 +37,16 @@ export function Projects() {
       name: "Backpack Exchange",
       description:
         "Contributed over 500 direct referrals and generated $500K in trading volume within a month.",
-      icon: DollarSign,
+      icon: backpackimg,
+       link  : 'https://x.com/backpack',
       status: "Completed",
       highlight: "$500K Volume",
     },
     {
       name: "Golden Donkey",
       description: "Helped successfully sell out 1,000 NFTs from their collection.",
-      icon: Image,
+      icon: goldendonkeyimg,
+       link  : 'https://x.com/goldendonkeygdk',
       status: "Completed",
       highlight: "1K NFTs Sold",
     },
@@ -42,14 +54,16 @@ export function Projects() {
       name: "Ulalo",
       description:
         "Boosted project visibility and brand awareness within the Web3 community.",
-      icon: TrendingUp,
+      icon: ulaloimg,
+       link  : 'https://x.com/ulalo_io',
       status: "Completed",
     },
     {
       name: "Onlyplayclub",
       description:
         "Increased their reach by growing followers from 8K to over 15K in a week, significantly enhancing visibility.",
-      icon: Users,
+      icon: onlyplayclubimg,
+       link  : 'https://x.com/onlyplayclub',
       status: "Completed",
       highlight: "8K → 15K in 1 week",
     },
@@ -58,13 +72,15 @@ export function Projects() {
       description:
         "Currently driving adoption by supporting VIP badge sales and strengthening community engagement.",
       icon: Users,
+       link  : 'https://x.com/owntheinfluence',
       status: "Ongoing",
     },
     {
       name: "Switchive",
       description:
         "Assisting with brand visibility and onboarding new users through active referrals and promotions.",
-      icon: TrendingUp,
+      icon: switchiveimg,
+       link  : 'https://x.com/switchive',
       status: "Ongoing",
     },
   ];
@@ -99,26 +115,34 @@ export function Projects() {
 
               <div className="relative z-10">
                 {/* Header */}
-                <div className="flex items-start justify-between mb-3 sm:mb-4">
-                  <div className="flex items-center gap-2 sm:gap-3">
-                    <div className="p-2 sm:p-3 bg-red-900/40 rounded-lg sm:rounded-xl group-hover:bg-red-800/40 transition-colors">
-                      <project.icon className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
-                    </div>
-                    <div>
-                      <h3 className="text-white mb-1 text-sm sm:text-base">{project.name}</h3>
-                      <span
-                        className={`inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs ${
-                          project.status === "Ongoing"
-                            ? "bg-green-900/40 text-green-400 border border-green-700/40"
-                            : "bg-red-900/40 text-red-400 border border-red-700/40"
-                        }`}
-                      >
-                        {project.status}
-                      </span>
-                    </div>
-                  </div>
-                  <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 group-hover:text-red-400 transition-colors flex-shrink-0" />
-                </div>
+              <a 
+  href={project.link} 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="block"
+>
+  <div className="flex items-start justify-between mb-3 sm:mb-4">
+    <div className="flex items-center gap-2 sm:gap-3">
+      <div className="p-2 sm:p-3 bg-red-900/40 rounded-lg group-hover:bg-red-800/40 transition-colors">
+        {/* <project.icon className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" /> */}
+        <img src={project.icon} alt="" className="w-10 h-10 sm:w-6 sm:h-6 text-red-400 sm:rounded-xl"/>
+      </div>
+      <div>
+        <h3 className="text-white mb-1 text-sm sm:text-base">{project.name}</h3>
+        <span
+          className={`inline-block px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs ${
+            project.status === "Ongoing"
+              ? "bg-green-900/40 text-green-400 border border-green-700/40"
+              : "bg-red-900/40 text-red-400 border border-red-700/40"
+          }`}
+        >
+          {project.status}
+        </span>
+      </div>
+    </div>
+    <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 text-gray-500 group-hover:text-red-400 transition-colors flex-shrink-0" />
+  </div>
+</a>
 
                 {/* Highlight */}
                 {project.highlight && (

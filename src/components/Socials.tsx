@@ -28,14 +28,14 @@ export function Socials() {
     {
       name: "Twitter",
       icon: Twitter,
-      url: "https://twitter.com/melissa",
+      url: "https://x.com/0xmelissa19",
       color: "from-blue-600 to-blue-800",
       hoverColor: "hover:border-blue-500",
     },
     {
       name: "Telegram",
       icon: Send,
-      url: "https://t.me/melissa",
+      url: "https://t.me/vera1294",
       color: "from-sky-600 to-sky-800",
       hoverColor: "hover:border-sky-500",
     },
@@ -49,7 +49,7 @@ export function Socials() {
     {
       name: "WhatsApp",
       icon: MessageCircle,
-      url: "https://wa.me/1234567890",
+      url: "https://wa.me/234 808 714 1011",
       color: "from-green-600 to-green-800",
       hoverColor: "hover:border-green-500",
     },
