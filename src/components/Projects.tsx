@@ -10,6 +10,7 @@ import onlyplayclubimg from '../components/figma/onlypay.jpg';
 import babesmemcoinimg from '../components/figma/babesmemcoin.jpg';
 import goldendonkeyimg from '../components/figma/uglydonkey.jpg';
 import uglyducksimg from '../components/figma/uglyducks.jpg';
+import otiimg from '../components/figma/oti.jpg';
 import { link } from "fs";
 
 export function Projects() {
@@ -68,10 +69,10 @@ export function Projects() {
       highlight: "8K → 15K in 1 week",
     },
     {
-      name: "Babesmemcoin",
+      name: "OTI",
       description:
         "Currently driving adoption by supporting VIP badge sales and strengthening community engagement.",
-      icon: Users,
+      icon: otiimg,
        link  : 'https://x.com/owntheinfluence',
       status: "Ongoing",
     },
