@@ -40,7 +40,7 @@ export function Footer() {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="text-gray-500 text-sm sm:text-base"
           >
-            © 2025 Melissa | All Rights Reserved
+            © 2025 Melissa | <a href="https://x.com/EzekielCrrypt">Dev: @EzekielCrrypt</a>
           </motion.p>
         </motion.div>
       </div>
