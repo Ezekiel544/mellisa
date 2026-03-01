@@ -45,7 +45,7 @@ export function Footer() {
         </motion.div>
       </div>
 
-      {/* Decorative elements */}
+      {/* Decorative elements on footer*/}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 sm:w-64 h-1 bg-gradient-to-r from-transparent via-red-700 to-transparent" />
     </footer>
   );
