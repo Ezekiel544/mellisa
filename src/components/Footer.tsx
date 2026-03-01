@@ -33,7 +33,7 @@ export function Footer() {
             className="w-20 sm:w-24 h-1 bg-gradient-to-r from-red-800 to-red-600 mx-auto mb-6 sm:mb-8 rounded-full"
           />
 
-          {/* Copyright added now*/}
+          {/* Copyright added now here*/}
           <motion.p
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
