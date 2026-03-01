@@ -145,7 +145,7 @@ export function Projects() {
   </div>
 </a>
 
-                {/* Highlight */}
+                {/* Highlight here*/}
                 {project.highlight && (
                   <div className="mb-2 sm:mb-3 inline-block px-2 sm:px-3 py-1 bg-red-800/30 border border-red-700/50 rounded-lg">
                     <span className="text-red-300 text-xs sm:text-sm">{project.highlight}</span>
