@@ -98,7 +98,7 @@ export function Socials() {
         </motion.h2>
 
         <div className="space-y-4 sm:space-y-6">
-          {/* Solana Address added*/}
+          {/* Solana Address added here*/}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
