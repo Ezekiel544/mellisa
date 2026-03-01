@@ -152,7 +152,7 @@ export function Projects() {
                   </div>
                 )}
 
-                {/* Description here*/}
+                {/* Description here now*/}
                 <p className="text-gray-400 text-xs sm:text-sm leading-relaxed">
                   {project.description}
                 </p>
