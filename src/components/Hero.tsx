@@ -35,7 +35,7 @@ export function Hero() {
 
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
-          {/* Profile Image */}
+          {/* Profile Image added*/}
           <motion.div
             initial={{ scale: 0, rotate: -180 }}
             animate={{ scale: 1, rotate: 0 }}
