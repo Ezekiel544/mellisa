@@ -15,7 +15,7 @@ export function Footer() {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          {/* Quote */}
+          {/* Quote here*/}
           <motion.p
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
