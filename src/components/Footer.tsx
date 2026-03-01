@@ -25,7 +25,7 @@ export function Footer() {
             "Building the decentralized future, one block at a time."
           </motion.p>
 
-          {/* Divider */}
+          {/* Divider made*/}
           <motion.div
             initial={{ scaleX: 0 }}
             animate={isInView ? { scaleX: 1 } : { scaleX: 0 }}
