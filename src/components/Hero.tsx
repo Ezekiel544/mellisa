@@ -78,7 +78,7 @@ export function Hero() {
             Welcome to Melissa's Portfolio
           </motion.h1>
 
-          {/* Subtitle */}
+          {/* Subtitle added here*/}
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
