@@ -5,7 +5,7 @@ import profileImage from "figma:asset/bf02836cfde1eaf859347cb3d1bf4a1b62da75c2.p
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4">
-      {/* Animated background elements */}
+      {/* Animated background elements added*/}
       <div className="absolute inset-0 opacity-20">
         <motion.div
           className="absolute top-20 left-10 w-40 h-40 md:w-72 md:h-72 bg-gradient-to-r from-red-900 to-red-700 rounded-full blur-3xl"
