@@ -115,7 +115,7 @@ export function Projects() {
               />
 
               <div className="relative z-10">
-                {/* Header */}
+                {/* Header here*/}
               <a 
   href={project.link} 
   target="_blank" 
