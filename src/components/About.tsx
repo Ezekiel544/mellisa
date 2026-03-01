@@ -24,7 +24,7 @@ export function About() {
           transition={{ duration: 0.8 }}
           className="bg-gradient-to-br from-red-950/30 to-black/50 backdrop-blur-sm border border-red-900/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12"
         >
-          {/* Quote added*/}
+          {/* Quote added here*/}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
