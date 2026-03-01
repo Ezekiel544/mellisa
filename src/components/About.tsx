@@ -38,7 +38,7 @@ export function About() {
             <div className="text-4xl sm:text-6xl text-red-500 rotate-180 inline-block">"</div>
           </motion.div>
 
-          {/* Profile Section added*/}
+          {/* Profile Section added here*/}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
