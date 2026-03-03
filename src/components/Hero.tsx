@@ -68,7 +68,7 @@ export function Hero() {
             </div>
           </motion.div>
 
-          {/* Title added*/}
+          {/* Title added now*/}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
