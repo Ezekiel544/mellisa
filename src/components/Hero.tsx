@@ -89,7 +89,7 @@ export function Hero() {
             community, and creativity.
           </motion.p>
 
-          {/* Role badges added*/}
+          {/* Role badges added now*/}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
