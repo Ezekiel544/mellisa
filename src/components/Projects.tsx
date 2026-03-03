@@ -108,7 +108,7 @@ export function Projects() {
               whileHover={{ y: -10, scale: 1.02 }}
               className="bg-gradient-to-br from-red-950/30 to-black/50 border border-red-900/30 rounded-xl sm:rounded-2xl p-4 sm:p-6 backdrop-blur-sm group cursor-pointer relative overflow-hidden"
             >
-              {/* Animated background on hover */}
+              {/* Animated background on hover here*/}
               <motion.div
                 className="absolute inset-0 bg-gradient-to-br from-red-800/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 initial={false}
