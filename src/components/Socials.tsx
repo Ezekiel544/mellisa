@@ -87,7 +87,7 @@ export function Socials() {
           </div>
         </motion.div>
 
-        {/* On-Chain Identity here*/}
+        {/* On-Chain Identity */}
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
