@@ -26,7 +26,7 @@ export function Experience() {
           Experience
         </motion.h2>
 
-        {/* Stats Grid now here now here*/}
+        {/* Stats Grid now here now */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-8 sm:mb-16">
           {highlights.map((item, index) => (
             <motion.div
