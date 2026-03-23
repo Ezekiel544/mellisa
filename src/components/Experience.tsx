@@ -26,7 +26,7 @@ export function Experience() {
           Experience
         </motion.h2>
 
-        {/* Stats Gridd*/}
+        {/* Stats Grid*/}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6 mb-8 sm:mb-16">
           {highlights.map((item, index) => (
             <motion.div
@@ -44,7 +44,7 @@ export function Experience() {
           ))}
         </div>
 
-        {/* Experience Description added*/}
+        {/* Experience Description added here*/}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
