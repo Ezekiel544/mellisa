@@ -116,7 +116,7 @@ export function Hero() {
             ))}
           </motion.div>
 
-          {/* Scroll indicator ggg*/}
+          {/* Scroll indicator gg*/}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
