@@ -129,7 +129,7 @@ export function Socials() {
             </div>
           </motion.div>
 
-          {/* EVM Address added hh */}
+          {/* EVM Address added h*/}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 30 }}
