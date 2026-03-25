@@ -44,7 +44,7 @@ export function Experience() {
           ))}
         </div>
 
-        {/* Experience Description jj*/}
+        {/* Experience Description j*/}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
