@@ -21,7 +21,7 @@ export function Projects() {
     // {
     //   name: "Ugly Ducks here",
     //   description:
-    //     "Supported fyf ffff their NFT sales campaign, helping them sell out nearly their entire collection.",
+    //     "Supported ffff their NFT sales campaign, helping them sell out nearly their entire collection.",
     //   icon: Image,
     //   status: "Completed",
     // },
