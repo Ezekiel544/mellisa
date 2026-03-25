@@ -58,7 +58,7 @@ export function Socials() {
   return (
     <section ref={ref} className="py-12 sm:py-20 px-4 sm:px-6 relative">
       <div className="container mx-auto max-w-4xl">
-        {/* Social Media Links here*/}
+        {/* Social Media Links here jj*/}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
