@@ -19,7 +19,7 @@ export function Projects() {
 
   const projects = [
     // {
-    //   name: "Ugly",
+    //   name: "Uhhhgly",
     //   description:
     //     "Supported their NFT sales campaign, help them sell  nearly their entire collection. ",
     //   icon: Image,
